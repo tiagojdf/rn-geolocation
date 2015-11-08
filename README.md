@@ -78,7 +78,7 @@ Latitude and longitude can be recovered as:
 position.coords.longitude
 position.coords.latitude
 ```
-	
+
 
 ## Running the example
 
