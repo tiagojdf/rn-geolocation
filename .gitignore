@@ -1,1 +1,4 @@
 android/build
+example/android/build
+example/android/app/build
+example/node_modules

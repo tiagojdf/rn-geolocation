@@ -1,0 +1,4 @@
+rootProject.name = 'testGeolocation'
+
+include 'rn-geolocation',':app'
+project(':rn-geolocation').projectDir = new File(rootProject.projectDir, '../node_modules/rn-geolocation/android')
