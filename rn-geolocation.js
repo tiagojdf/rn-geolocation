@@ -1,5 +1,5 @@
 /**
-* @providesModule rn-geolocation
+* @providesModule rnGeolocation
 */
 
 "use strict";
@@ -8,14 +8,14 @@ var Platform = require("Platform");
 
 if (Platform.OS === "android") {
     var Manager = require("react-native").NativeModules.RNGeolocationManager;
-    var rn-geolocation = {
+    var rnGeolocation = {
         getCurrentPosition: function (onSuccess, onError, options) {
             Manager.getCurrentPosition(options.timeout, options.maximumAge, options.enableHighAccuracy,
                 onSuccess, onError);
         },
     };
 } else {
-    var rn-geolocation = require("Geolocation");
+    var rnGeolocation = require("Geolocation");
 }
 
-module.exports = rn-geolocation;
+module.exports = rnGeolocation;

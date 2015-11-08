@@ -16,10 +16,10 @@ import com.google.android.gms.location.LocationServices;
 /**
  * Created by corentin on 10/29/15.
  */
-public class RNGeolocationPackage extends ReactContextBaseJavaModule {
+public class RNGeolocationModule extends ReactContextBaseJavaModule {
     private GoogleApiClient mGoogleApiClient;
 
-    public RNGeolocationPackage(ReactApplicationContext reactContext) {
+    public RNGeolocationModule(ReactApplicationContext reactContext) {
         super(reactContext);
     }
 
