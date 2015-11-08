@@ -1,0 +1,27 @@
+{
+  "name": "rn-geolocation",
+  "version": "0.0.2",
+  "description": "Geolocation for react native android",
+  "main": "rn-geolocation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiagojdferreira/rn-geolocation.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react",
+    "geolocation",
+    "android",
+    "ios"
+  ],
+  "author": "Tiago J. D. Ferreira <tiagojdferreira@gmail.com> (http://tiagojdferreira.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tiagojdferreira/rn-geolocation/issues"
+  },
+  "homepage": "https://github.com/Tiagojdferreira/rn-geolocation#readme"
+}
