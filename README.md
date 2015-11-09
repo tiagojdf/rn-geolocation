@@ -14,7 +14,7 @@ npm install --save rn-geolocation
 In your settings.gradle replace ```include ':app'``` with:
 ```
 include 'rn-geolocation',':app'
-project(':rn-geolocation').projectDir = new File(rootProject.projectDir, '../rn-geolocation')
+project(':rn-geolocation').projectDir = new File(rootProject.projectDir, '../node_modules/rn-geolocation/android')
 ```
 In your android/app/build.gradle add:
 ```
