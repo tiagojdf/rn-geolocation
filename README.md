@@ -58,6 +58,26 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
 
 ```
 
+Now that you've installed it, just require it, and use getCurrentPosition to recover latitude and longitude:
+
+```
+var React = require('react-native');
+var rnGeolocation = require('rn-geolocation');
+
+...
+
+rnGeolocation.getCurrentPosition(
+      (position) => callback(position)
+)
+```
+Latitude and longitude can be recovered as:
+
+```
+position.coords.longitude
+position.coords.latitude
+```
+	
+
 ## Running the example
 
 First, clone this repo and go to the example folder and install the project:
