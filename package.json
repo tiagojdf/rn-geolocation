@@ -1,6 +1,6 @@
 {
   "name": "rn-geolocation",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Geolocation for react native android",
   "main": "rn-geolocation.js",
   "scripts": {

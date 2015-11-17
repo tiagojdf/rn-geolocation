@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "react-native": "0.14.1",
-    "rn-geolocation": "0.0.3"
+    "rn-geolocation": "0.0.5"
   }
 }
