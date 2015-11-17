@@ -6,6 +6,8 @@ RN-Geolocation is a native module for React Native, that exposes the GoogleApi g
 
 ## Installing rn-geolocation in your own project
 
+Before you install this package, be sure that you have installed all tools necessary for [React Native Android](https://facebook.github.io/react-native/docs/android-setup.html#content) and the [Google Repository and Google Play Services dependency](http://developer.android.com/sdk/installing/adding-packages.html).
+
 To use it do:
 ```
 npm install --save rn-geolocation
