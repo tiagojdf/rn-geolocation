@@ -1,5 +1,7 @@
 #RN-Geolocation
 
+**NOTE:** React Native 0.15 already has the geolocation module implemented for Android. 
+
 **Disclaimer:** This package is based on code from [Corentin Smith](https://gist.github.com/cosmith). All java files were originally written by him. Kudos to you.
 
 RN-Geolocation is a native module for React Native, that exposes the GoogleApi geolocation. It can be used to determine the users location. This repository contains an example of the code (see last section of this read me), but the package can also be installed on its own.
