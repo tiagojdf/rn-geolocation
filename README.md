@@ -1,6 +1,9 @@
 #RN-Geolocation
 
-**NOTE:** React Native 0.15 already has the geolocation module implemented for Android. 
+## **NOTE:** React Native 0.15 already has the geolocation module implemented for Android.
+
+------------------------------
+## This package is deprecated as geolocation module was implemented in RN 0.15
 
 **Disclaimer:** This package is based on code from [Corentin Smith](https://gist.github.com/cosmith). All java files were originally written by him. Kudos to you.
 
